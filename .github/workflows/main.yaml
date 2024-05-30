@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
-        uses: baloise-incubator/gitopscli-action/.github/actions/gitopscli/action.yaml@main # Uses an action in the root directory
+        uses: baloise-incubator/gitopscli-action@main # Uses an action in the root directory
         id: GitOpsCli
         with:
           command: '-h'
